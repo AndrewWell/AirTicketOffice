@@ -1,15 +1,15 @@
-Bombardier Q400|2025-04-30|18:57|19:57|Kazan|Severomorsk|9666
-Airbus A320|2025-04-02|23:57|03:57|Kazan|St. Petersburg|9070
-Boeing 737|2025-04-14|08:57|06:57|Moscow|Kazan|3329
-Bombardier Q400|2025-04-29|08:57|20:57|Uralsk|Moscow|6863
-Airbus A320|2025-04-25|21:57|05:57|Severomorsk|Uralsk|6573
-Bombardier Q400|2025-04-23|07:57|12:57|Kazan|St. Petersburg|1442
-Boeing 737|2025-04-03|11:57|17:57|Kazan|Uralsk|9381
-Bombardier Q400|2025-04-04|21:57|08:57|Uralsk|St. Petersburg|4621
-Airbus A320|2025-04-04|10:57|00:57|Severomorsk|St. Petersburg|9044
-Bombardier Q400|2025-04-22|21:57|00:57|St. Petersburg|Severomorsk|6977
-Airbus A320|2025-04-14|11:57|07:57|Severomorsk|St. Petersburg|9096
-Bombardier Q400|2025-04-06|00:57|04:57|St. Petersburg|Uralsk|5676
-Boeing 737|2025-04-21|07:57|02:57|Uralsk|Kazan|686
-Bombardier Q400|2025-04-09|02:57|19:57|St. Petersburg|Severomorsk|7810
-Boeing 737|2025-04-06|07:57|10:57|Severomorsk|Kazan|3720
+Bombardier Q400|2025-05-23|17:16|13:16|Kazan|St. Petersburg|7304
+Boeing 737|2025-04-30|12:16|01:16|Kazan|Moscow|436
+Embraer 190|2025-05-13|01:16|21:16|Kazan|St. Petersburg|8262
+Embraer 190|2025-05-02|19:16|09:16|Kazan|Severomorsk|3145
+Airbus A320|2025-05-17|08:16|15:16|Uralsk|St. Petersburg|3293
+Airbus A320|2025-05-13|10:16|18:16|Moscow|St. Petersburg|6216
+Airbus A320|2025-05-22|07:16|10:16|Kazan|Uralsk|8922
+Embraer 190|2025-05-14|14:16|16:16|Uralsk|Severomorsk|4683
+Airbus A320|2025-05-18|23:16|17:16|Kazan|Moscow|2030
+Airbus A320|2025-05-11|08:16|14:16|St. Petersburg|Kazan|8149
+Embraer 190|2025-05-11|06:16|13:16|Moscow|Uralsk|4042
+Bombardier Q400|2025-05-11|03:16|19:16|Uralsk|Severomorsk|3243
+Bombardier Q400|2025-05-20|13:16|07:16|Moscow|Kazan|4989
+Embraer 190|2025-05-13|10:16|07:16|Moscow|Severomorsk|8877
+Airbus A320|2025-05-23|12:16|18:16|Severomorsk|Moscow|4387

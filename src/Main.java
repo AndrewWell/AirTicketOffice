@@ -3,6 +3,9 @@ import ratio.WorkingWithArrayList;
 import variables.Flight;
 import working_with_files.data_generation.GenerationManagement;
 
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
+import java.util.Date;
 import java.util.Scanner;
 
 public class Main {
@@ -56,6 +59,11 @@ public class Main {
                         String firstDate = scanner.next();
                         System.out.println("Введите вторую дату в формате 'yyyy-MM-dd'");
                         String secondDate = scanner.next();
+                        if (!isValidDate(firstDate) || !isValidDate(secondDate)) {
+                            System.out.println("[ОШИБКА] - Вы ввели дату в неправильном формате, повторите попытку");
+                            break;
+                        }
+
                         System.out.println("\nСписки рейсов совершающих перелет с " + firstDate + " по " + secondDate);
                         for (int i = 0; i < state.getFlightArrayList().size(); i++) {
                             if (state.isFlightsBetweenDates(firstDate, secondDate, i))
@@ -65,6 +73,10 @@ public class Main {
                     case ("5"):
                         System.out.println("Для продолжение покупки билета необходимо ввести дату рождения в формате yyyy-MM-dd");
                         choice = scanner.next();
+                        if(!isValidDate(choice)){
+                            System.out.println("[ОШИБКА] Возраст пассажира указан в неправильном формате, повторите попытку");
+                            break;
+                        }
                         if (!buyingTicket.isAdult(choice)) {
                             System.out.println("Пассажир не достиг совершенолетия, покупка билета невозможна");
                             break;
@@ -109,21 +121,17 @@ public class Main {
         }
 
         scanner.close();
-/*
+    }
 
-        System.out.println("\nСписок рейсов совершающих маршрут: Москва - Казань");
-        for (int i = 0; i < state.getFlightArrayList().size(); i++) {
-            if ((state.isPlaneTakesOffFromPointN("Moscow", i)) && (state.isPlaneLandsInPointN("Kazan", i)))
-                System.out.println(state.getFlight(i));
+    private static boolean isValidDate(String date) {
+        SimpleDateFormat sfd = new SimpleDateFormat("yyy-MM-dd");
+        sfd.setLenient(false);
+        try {
+            Date parsedDate = sfd.parse(date);
+            return true;
+        } catch (ParseException e) {
+            return false;
         }
-
-        }
-        System.out.println("\nСписки самолетов не выведенные из эксплуатации");
-        for(int i=0;i<state.getAirplaneArrayList().size();i++){
-            if(state.isAircraftInOperation(i)) System.out.println(state.getAirplane(i));
-        }
- */
-
     }
 }
 
